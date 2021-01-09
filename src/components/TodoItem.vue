@@ -2,7 +2,7 @@
     
     <div class="row mt-4">
         
-        <div class="col">
+        <div class="col-11">
 
             <label style="cursor: pointer;">
 
@@ -28,7 +28,7 @@
 
         </div>
 
-        <div class="col">
+        <div class="col-1">
 
             <button class="btn btn-danger" v-on:click="$emit('delete-todo', todo.id)" style="font-size: 16px; padding: 1px 8px;">x</button>
 
